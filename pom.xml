@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.dubture.osgi</groupId>
-	<artifactId>repository-parent</artifactId>
+	<artifactId>osgi-repository-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -20,13 +20,17 @@
 		<module>osgi-feature</module>
 	</modules>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>com.dubture.osgi</groupId>
 			<artifactId>org.json.simple</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.dubture.osgi</groupId>
+			<artifactId>org.yaml.snakeyaml</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>		
 	</dependencies>
 
 	<build>

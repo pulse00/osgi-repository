@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.dubture.osgi</groupId>
-		<artifactId>repository-parent</artifactId>
+		<artifactId>osgi-repository-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>osgi-feature</artifactId>
